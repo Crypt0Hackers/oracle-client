@@ -1,6 +1,6 @@
 # Simplified Oracle Client
 
-A simplified, production-ready mock oracle system with retry logic, Redis caching, and Postgres persistence.
+A simplified, production-ready mock oracle system with retry logic, Redis caching, and Postgres persistence. Amaechi was here.
 
 ## Features
 
