@@ -1,0 +1,27 @@
+{
+  "name": "oracle-client",
+  "version": "1.0.0",
+  "description": "A simplified, production-ready mock oracle system with retry logic, Redis caching, and Postgres persistence.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Crypt0Hackers/oracle-client.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Crypt0Hackers/oracle-client/issues"
+  },
+  "homepage": "https://github.com/Crypt0Hackers/oracle-client#readme",
+  "dependencies": {
+    "@chainlink/contracts": "^1.5.0"
+  }
+}
