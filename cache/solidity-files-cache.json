@@ -1069,8 +1069,8 @@
       }
     },
     "src/DataConsumerV3.sol": {
-      "lastModificationDate": 1772052648732,
-      "contentHash": "d747855d9006e997516798c4952a4ec9",
+      "lastModificationDate": 1774398763961,
+      "contentHash": "012d3eb27225a023d06ac777f9bf4f36",
       "sourceName": "src/DataConsumerV3.sol",
       "solcConfig": {
         "settings": {
@@ -1153,8 +1153,8 @@
       }
     },
     "src/MockOracle.sol": {
-      "lastModificationDate": 1771838657832,
-      "contentHash": "21d7146cdbcb6e04e83f7d18cecc416a",
+      "lastModificationDate": 1774401110113,
+      "contentHash": "2b82fb4cf8c112c7017638d718f14a91",
       "sourceName": "src/MockOracle.sol",
       "solcConfig": {
         "settings": {
@@ -1195,9 +1195,74 @@
         }
       }
     },
+    "test/DataConsumerV3.t.sol": {
+      "lastModificationDate": 1774404551516,
+      "contentHash": "722e56d9ce42b60f0138f699f68748b0",
+      "sourceName": "test/DataConsumerV3.t.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/forge-std/src/Base.sol",
+        "lib/forge-std/src/StdAssertions.sol",
+        "lib/forge-std/src/StdChains.sol",
+        "lib/forge-std/src/StdCheats.sol",
+        "lib/forge-std/src/StdConstants.sol",
+        "lib/forge-std/src/StdError.sol",
+        "lib/forge-std/src/StdInvariant.sol",
+        "lib/forge-std/src/StdJson.sol",
+        "lib/forge-std/src/StdMath.sol",
+        "lib/forge-std/src/StdStorage.sol",
+        "lib/forge-std/src/StdStyle.sol",
+        "lib/forge-std/src/StdToml.sol",
+        "lib/forge-std/src/StdUtils.sol",
+        "lib/forge-std/src/Test.sol",
+        "lib/forge-std/src/Vm.sol",
+        "lib/forge-std/src/console.sol",
+        "lib/forge-std/src/console2.sol",
+        "lib/forge-std/src/interfaces/IMulticall3.sol",
+        "lib/forge-std/src/safeconsole.sol",
+        "node_modules/@chainlink/contracts/src/v0.8/shared/interfaces/AggregatorV3Interface.sol",
+        "src/DataConsumerV3.sol",
+        "src/Interfaces.sol",
+        "src/MockOracle.sol"
+      ],
+      "versionRequirement": "^0.8.19",
+      "artifacts": {
+        "DataConsumerV3Test": {
+          "0.8.21+commit.d9974bed.Linux.gcc": "DataConsumerV3.t.sol/DataConsumerV3Test.json"
+        }
+      }
+    },
     "test/MockOracle.t.sol": {
-      "lastModificationDate": 1771551360285,
-      "contentHash": "a767452e3997ca6ef4a6b4a2f08569c1",
+      "lastModificationDate": 1774405994112,
+      "contentHash": "1cdd102e57f67ce7a13258b567ff7d8f",
       "sourceName": "test/MockOracle.t.sol",
       "solcConfig": {
         "settings": {
@@ -1248,6 +1313,8 @@
         "lib/forge-std/src/console2.sol",
         "lib/forge-std/src/interfaces/IMulticall3.sol",
         "lib/forge-std/src/safeconsole.sol",
+        "node_modules/@chainlink/contracts/src/v0.8/shared/interfaces/AggregatorV3Interface.sol",
+        "src/DataConsumerV3.sol",
         "src/Interfaces.sol",
         "src/MockOracle.sol"
       ],

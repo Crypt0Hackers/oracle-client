@@ -57,18 +57,12 @@ contract MockOracle is IAggregatorV3 {
         emit AnswerUpdated(newAnswer, latestRoundId, block.timestamp);
     }
 
-    function latestRoundData()
-        external
-        view
-        override
-        returns (uint80, int256, uint256, uint256, uint80)
+    function latestRoundData() external view override returns (uint80, int256, uint256, uint256, uint80)
     {
         return getRoundData(latestRoundId);
     }
 
-    function getRoundData(
-        uint80 roundId
-    ) public view override returns (uint80, int256, uint256, uint256, uint80) {
+    function getRoundData(uint80 roundId) public view override returns (uint80, int256, uint256, uint256, uint80) {
         RoundData memory round = rounds[roundId];
         require(round.answeredInRound != 0, "Round not found");
 
